@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://115.159.103.42:3306/spicybar?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: xE8u4Yfy77RQ
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database: MYSQL
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  liquibase:
+    change-log: classpath:db/changelog/db.changelog-master.xml

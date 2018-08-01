@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+
+    <changeSet author="mahaoyu" id="changelog-1.0">
+        <insert tableName="book">
+            <column name="id" value="1"/>
+            <column name="name" value="一千零一夜"/>
+            <column name="create_time" valueDate="2018-04-21 16:53:48"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>
